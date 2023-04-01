@@ -1,6 +1,7 @@
 import tensorflow as tf
 import efficientnet.keras as efn
 import sys
+import keras.applications.xception as xception
 
 if len(sys.argv) != 2:
     print(f"Usage : {sys.argv[0]} h5_file")
